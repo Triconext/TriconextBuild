@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jaquar Style Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background-color: #000;
+      color: white;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .branding img {
+      height: 40px;
+      width: auto;
+    }
+
+    .branding .title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00bcd4;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="branding">
+     <img src="logo2.png" alt=""> <!-- Replace 'logo.png' with your actual logo path -->
+    <div class="title">Triconext Build</div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li> <a href="#">Products</a></li>
+      
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <nav>
+    <ul>
+       <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      
+      <li><a href="#about.html">About Us</a></li>
+      <li><a href="#contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+    <div class="content">
+<h2>Welcome to Triconext Build Pvt Ltd</h2><p>We specialize in supply management solutions tailored to your business needs.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Triconext Build Pvt Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
